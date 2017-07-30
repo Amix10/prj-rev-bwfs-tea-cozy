@@ -1,0 +1,169 @@
+body {
+  margin: auto;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  heigth: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 1;
+  margin: auto;
+}
+
+.logo {
+  flex-grow: 1;
+  heigth: 50px;
+  margin-left: 10px;
+}
+
+header nav {
+  display: inline-flex;
+  flex-flow: row wrap;
+  margin-right: 20px;
+}
+
+span a {
+  padding: 20px 10px;
+  text-decoration: underline;
+  color: seashell;
+}
+
+.tea-cozy-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding-top: 69px;
+}
+
+.mission-content {
+  width: 1200px;
+}
+
+.mission-content h2 {
+  background-color: black;
+  margin: 0;
+  padding: 10px;
+}
+
+.mission-content h4 {
+  background-color: black;
+  margin: 0;
+  padding: 10px;
+}
+
+.featured-tea {
+  display: block;
+  margin: auto;
+  width: 1000px;
+  padding-top: 69px;
+}
+
+.tea-of-the-month-title {
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.featured-tea-image {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.tea-of-the-month-content {
+  display: flex;
+  justify-content:center;
+  flex-flow: row wrap;
+}
+
+.tea-of-the-month-content h4 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.location {
+  display: block;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-top: 45px;
+  padding-top: 69px;
+}
+
+.location-title h2 {
+  padding: 10px;
+  margin: auto;
+}
+
+.location-branch {
+  display: inline-flex;
+}
+
+.location-branch h3 {
+  margin: 20px 0;
+}
+
+.location-branch-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  height: 270px;
+  opacity: 0.9;
+  width: 300px;
+  margin: 5px 20px;
+  padding: 10px;
+}
+
+.address {
+  padding: 20px 0;
+}
+
+.about {
+  text-align: center;
+  height: 200px;
+}
+
+.copy {
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
